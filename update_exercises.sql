@@ -2,11 +2,11 @@ USE codeup_test_db;
 
 SELECT record_name FROM albums;
 
-UPDATE albums SET sales = sales * 10
+UPDATE albums SET sales = sales * 10;
 
-SELECT record_name FROM albums WHERE relese_date <= 1980;
+SELECT record_name FROM albums WHERE release_date <= 1980;
 
-UPDATE albums SET relese_date = 1800 WHERE relese_date <= 1980;
+UPDATE albums SET release_date = 1800 WHERE release_date <= 1980;
 
 SELECT record_name FROM albums WHERE artist = 'Michael Jackson';
 
